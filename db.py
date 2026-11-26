@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 
 # MySQL server address. Format: mysql+pymysql://USERNAME:PASSWORD@HOST:PORT
 # XAMPP: username is root and the password is empty
-SERVER_URL = "mysql+pymysql://root:root@localhost:3306"
+SERVER_URL = "postgresql+psycopg2://sdgasdg_user:GIqIdyUNKhn2Cw5Y2LMPfABuVyIaLfdf@dpg-dc36koom7kps73dbq3mg-a.oregon-postgres.render.com/sdgasdg"
 DB_NAME = "product_management"
 
 # Create the database automatically if it doesn't exist yet
